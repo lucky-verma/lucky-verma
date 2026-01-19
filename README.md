@@ -13,7 +13,7 @@
 ```bash
 $ whoami
 > ML Engineer specializing in production AI systems
-> 2.5+ years building agentic AI platforms, document processing, and GPU-accelerated pipelines
+> 5+ years building agentic AI platforms, document processing, and GPU-accelerated pipelines
 > MS Computer Science @ UMBC (GPA: 3.97) | Nashville, TN
 
 $ cat skills.json
