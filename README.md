@@ -1,57 +1,55 @@
-### Hello World 👋 AI Enthusiast here! 🤖
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Lucky+Verma;ML+Engineer;Production+AI+Systems;LLMs+and+Agents" alt="Typing SVG" />
+</h1>
 
-<img src="./assets/lucky-cover.png" alt="aws"/>
-
-I'm **Lucky Verma**, a **Deep Learning** and **Machine Learning** **Practitioner** and **Learner**. I'm here to solve things, Learning a lot in the Process.
-
-- 🌱 I’m currently learning and building projects around LLMs use cases.
-- 👯 I’m looking to collaborate on **Machine Learning** and **Deep Learning**
-- 📫 How to reach me: [Connect/Message](https://www.linkedin.com/in/lucky-verma/)
-
-### **Find me around:**
-
-[<img align="left" alt="codeSTACKr | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
-[<img align="left" alt="codeSTACKr | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-
-[linkedin]: https://www.linkedin.com/in/lucky-verma/
-[twitter]: https://twitter.com/luckieverma/
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=lucky-verma" alt="lucky-verma" /> </p>
 <p align="center">
-  <img src="./icons/aws.svg" alt="aws" width="40" height="40"/> 
-  <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/> 
-  <img src="./icons/docker.svg" alt="docker" width="40" height="40"/> 
-  <img src="./icons/typescript.svg" alt="typescript" width="40" height="40"/>
-  <img src="./icons/python.svg" alt="python" width="40" height="40"/>
-  <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> 
-  <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/>
-  <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> 
-  <img src="./icons/scala.svg" alt="scala" width="40" height="40"/>
+  <a href="https://www.linkedin.com/in/lucky-verma/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="mailto:luckie.verma30@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://orcid.org/0009-0008-2884-1051"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white"/></a>
 </p>
 
-<!-- ### **Language and Tools**
+---
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=lucky-verma&theme=radical)
-![Lucky's GitHub Stats](https://github-readme-stats.vercel.app/api?username=lucky-verma&hide=prs,issues,contribs?username=lucky-verma&count_private=true?username=lucky-verma&show_icons=true&theme=radical) -->
+```bash
+$ whoami
+> ML Engineer specializing in production AI systems
+> 2.5+ years building agentic AI platforms, document processing, and GPU-accelerated pipelines
+> MS Computer Science @ UMBC (GPA: 3.97) | Nashville, TN
 
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lucky-verma&theme=github_dark)
+$ cat skills.json
+{
+  "systems": ["High-Concurrency APIs", "GPU Optimization", "Production Inference"],
+  "ai": ["LLM Fine-tuning", "RAG Architectures", "Agentic AI (LangGraph/DSPy)"],
+  "stack": ["PyTorch", "TensorFlow", "FastAPI", "PostgreSQL", "AWS Bedrock"]
+}
 
-![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=lucky-verma&theme=github_dark)
-![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=lucky-verma&theme=github_dark)
+$ ls -lh projects/
+total 6 items
 
-<!--
-**lucky-verma/lucky-verma** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+drwxr-xr-x  InfiniteContext-1B/          # Experimental SLURM training pipeline
+drwxr-xr-x  Document-Classification/     # LayoutLM multimodal (35⭐, 13 forks)
+drwxr-xr-x  US-Driver-License-Extraction/ # Production OCR system (24⭐, 11 forks)
+drwxr-xr-x  Biomedical-Signal-ML/        # PPG → ABP prediction (92% accuracy)
+drwx------  AEGIS-Platform/              # 10M entities, 1000 users [proprietary]
+drwx------  CodeCompliant-Tool/          # CodeQL + LLM (85% faster) [proprietary]
 
-Here are some ideas to get you started:
-- 🔭 I’m currently working as a Developer Internship at [**Information and Language Processing Research Lab**](https://ilprl.ku.edu.np/)
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+$ git log --oneline --graph achievements/
+* 📈 108 GitHub stars across ML projects
+* 🔒 85% time-reduction - security review
+* ⚡ 60% GPU speedup via custom CUDA kernels
+```
 
-<img src = "https://media.giphy.com/media/SKab6E8Qeg7sY/giphy.gif" width="320" height="200">
--->
+**Tech Stack**
+```yaml
+languages: [Python, C++/CUDA, SQL, JavaScript]
+frameworks: [PyTorch, TensorFlow, LangChain, DSPy, HuggingFace]
+infrastructure: [Docker, FastAPI, AWS (Bedrock/EC2), PostgreSQL, Redis]
+specializations: [CodeQL, Apache AGE, OpenCV, LlamaIndex, Triton]
+```
+
+<div align="center">
+
+**💼 Open to ML Engineer / Applied AI roles (L4/E4)**  
+![](https://komarev.com/ghpvc/?username=lucky-verma&color=58A6FF&style=flat-square)
+
+</div>
