@@ -49,7 +49,7 @@ Languages:      Python, SQL, C++, JavaScript, Bash
 
 ### Background
 
-MS Computer Science, UMBC (3.97 GPA). 5+ years in production ML — from biomedical signal processing to defense AI systems. Currently at Eccalon LLC (defense contractor, Nashville TN).
+MS Computer Science, UMBC (3.97 GPA). 5+ years in production ML — from biomedical signal processing to defense AI systems. Currently at Eccalon LLC (defense contractor, Fremont, CA).
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=lucky-verma&color=58A6FF&style=flat-square"/>
