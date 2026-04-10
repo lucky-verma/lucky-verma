@@ -1,55 +1,56 @@
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Lucky+Verma;ML+Engineer;Production+AI+Systems;LLMs+and+Agents" alt="Typing SVG" />
-</h1>
+<h1 align="center">Lucky Verma</h1>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/lucky-verma/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:luckie.verma30@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://orcid.org/0009-0008-2884-1051"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white"/></a>
+  <strong>Senior ML Engineer building production agentic AI systems</strong><br/>
+  Sole architect of AEGIS — automated foreign ownership detection for US defense supply chain<br/>
+  LangGraph | DSPy | Knowledge Graphs | RAG | PyTorch
+</p>
+
+<p align="center">
+  <a href="https://luckyverma.com"><img src="https://img.shields.io/badge/Website-luckyverma.com-blue?style=flat-square"/></a>
+  <a href="https://www.linkedin.com/in/lucky-verma/"><img src="https://img.shields.io/badge/LinkedIn-lucky--verma-0077B5?style=flat-square&logo=linkedin"/></a>
+  <a href="https://orcid.org/0009-0008-2884-1051"><img src="https://img.shields.io/badge/ORCID-0009--0008--2884--1051-A6CE39?style=flat-square&logo=orcid"/></a>
 </p>
 
 ---
 
-```bash
-$ whoami
-> ML Engineer specializing in production AI systems
-> 5+ years building agentic AI platforms, document processing, and GPU-accelerated pipelines
-> MS Computer Science @ UMBC (GPA: 3.97) | Nashville, TN
+### What I Build
 
-$ cat skills.json
-{
-  "systems": ["High-Concurrency APIs", "GPU Optimization", "Production Inference"],
-  "ai": ["LLM Fine-tuning", "RAG Architectures", "Agentic AI (LangGraph/DSPy)"],
-  "stack": ["PyTorch", "TensorFlow", "FastAPI", "PostgreSQL", "AWS Bedrock"]
-}
+I architect end-to-end AI systems that go from research prototype to production deployment — agentic pipelines, knowledge graphs, RAG architectures, and computer vision. Currently focused on AI for defense supply chain security and compliance automation.
 
-$ ls -lh projects/
-total 6 items
+**AEGIS** (proprietary) — Production agentic AI platform for automated foreign ownership risk assessment under [32 CFR 117.11](https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-D/part-117). Multi-hop reasoning across SAM.gov, SEC EDGAR, and GLEIF with entity resolution over 10M+ corporate records. LangGraph orchestration + DSPy optimization + PostgreSQL/Apache AGE knowledge graph.
 
-drwxr-xr-x  InfiniteContext-1B/          # Experimental SLURM training pipeline
-drwxr-xr-x  Document-Classification/     # LayoutLM multimodal (35⭐, 13 forks)
-drwxr-xr-x  US-Driver-License-Extraction/ # Production OCR system (24⭐, 11 forks)
-drwxr-xr-x  Biomedical-Signal-ML/        # PPG → ABP prediction (92% accuracy)
-drwx------  AEGIS-Platform/              # 10M entities, 1000 users [proprietary]
-drwx------  CodeCompliant-Tool/          # CodeQL + LLM (85% faster) [proprietary]
+### Selected Projects
 
-$ git log --oneline --graph achievements/
-* 📈 108 GitHub stars across ML projects
-* 🔒 85% time-reduction - security review
-* ⚡ 60% GPU speedup via custom CUDA kernels
+| Project | What | Stack |
+|---------|------|-------|
+| [**InfiniteContext-1B**](https://github.com/lucky-verma/InfiniteContext-1B) | Million-token LLM with 93.7% KV cache reduction via DeepSeek-V3 MLA | PyTorch, FSDP, Triton, SLURM |
+| [**Document-Classification**](https://github.com/lucky-verma/Document-Classification-using-LayoutLM) | LayoutLM multimodal document classifier (35 stars) | PyTorch, HuggingFace, Faster R-CNN |
+| [**Information-Retrieval**](https://github.com/lucky-verma/information-retrieval) | RAG pipeline with vector search, rerank, fine-tuned LLaMA 3 8B | ChromaDB, Unsloth, LoRA |
+| [**SaastIE**](https://github.com/lucky-verma/SaastIE) | Document understanding with Donut transformer | PyTorch, OCR |
+| [**LLM-Router**](https://github.com/lucky-verma/LLM-Router) | Multi-model router: BART classifier to Mistral-7B specialists | FastAPI, Gradio, HuggingFace |
+| [**US-DL-Extraction**](https://github.com/lucky-verma/US-Driver-License-data-extraction) | ML pipeline for driver license OCR with YOLO (25 stars) | PyTorch, OpenCV, YOLO |
+
+### Open Source Contributions
+
+| Project | Contribution |
+|---------|-------------|
+| [HKUDS/LightRAG](https://github.com/HKUDS/LightRAG) | Apache AGE 1.5.0+ schema support ([#2313](https://github.com/HKUDS/LightRAG/pull/2313)), SQL injection fix ([#2235](https://github.com/HKUDS/LightRAG/pull/2235)) |
+| [HKUDS/MiniRAG](https://github.com/HKUDS/MiniRAG) | Docker crash fix ([#42](https://github.com/HKUDS/MiniRAG/pull/42)) |
+
+### Stack
+
+```
+AI/LLM:         RAG, Agentic AI, LangGraph, DSPy, vLLM, Fine-tuning (LoRA, RLHF/DPO)
+ML/DL:          PyTorch, FSDP, DeepSpeed, SLURM Multi-GPU, Triton Kernels, CUDA
+Data/Infra:     Knowledge Graphs (Apache AGE, FalkorDB), PostgreSQL, LanceDB, FastAPI, Docker, AWS
+Languages:      Python, SQL, C++, JavaScript, Bash
 ```
 
-**Tech Stack**
-```yaml
-languages: [Python, C++/CUDA, SQL, JavaScript]
-frameworks: [PyTorch, TensorFlow, LangChain, DSPy, HuggingFace]
-infrastructure: [Docker, FastAPI, AWS (Bedrock/EC2), PostgreSQL, Redis]
-specializations: [CodeQL, Apache AGE, OpenCV, LlamaIndex, Triton]
-```
+### Background
 
-<div align="center">
+MS Computer Science, UMBC (3.97 GPA). 5+ years in production ML — from biomedical signal processing to defense AI systems. Currently at Eccalon LLC (defense contractor, Nashville TN).
 
-**💼 Open to ML Engineer / Applied AI roles (L4/E4)**  
-![](https://komarev.com/ghpvc/?username=lucky-verma&color=58A6FF&style=flat-square)
-
-</div>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=lucky-verma&color=58A6FF&style=flat-square"/>
+</p>
