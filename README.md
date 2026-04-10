@@ -12,7 +12,7 @@
 
 ```bash
 $ whoami
-> Senior ML Engineer building production agentic AI systems
+> Machine Learning Scientist building production agentic AI systems
 > 5+ years: LLM orchestration, knowledge graphs, RAG, computer vision
 > MS Computer Science @ UMBC (GPA: 3.97) | Fremont, CA
 
