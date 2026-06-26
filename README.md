@@ -1,61 +1,38 @@
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Lucky+Verma;ML+Engineer;Production+AI+Systems;LLMs+and+Agents" alt="Typing SVG" />
-</h1>
+# Lucky Verma
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/lucky-verma/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:luckie.verma30@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://orcid.org/0009-0008-2884-1051"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white"/></a>
-</p>
+Machine Learning Engineer focused on applied ML research, production AI systems, transformer behavior, model monitoring, document intelligence, RAG, and knowledge graphs.
 
----
+[Website](https://luckyverma.com) | [Publications](https://luckyverma.com/publications/) | [Projects](https://luckyverma.com/projects/) | [ORCID](https://orcid.org/0009-0008-2884-1051) | [LinkedIn](https://www.linkedin.com/in/lucky-verma/)
 
-```bash
-$ whoami
-> Machine Learning Engineer building production agentic AI systems
-> 4+ years: LLM orchestration, knowledge graphs, RAG, computer vision
-> MS Computer Science @ UMBC (GPA: 3.97) | Nashville Metro, TN
+## Current Focus
 
-$ cat current_work.json
-{
-  "aegis": "Production agentic AI platform for defense supply chain security",
-  "stack": "LangGraph + DSPy + Apache AGE + LanceDB + FastAPI",
-  "scale": "Entity resolution across 10M+ corporate records",
-  "domain": "Foreign ownership risk assessment (32 CFR 117.11)"
-}
+- Transformer training behavior and normalization alternatives.
+- Monitor calibration for LoRA and PEFT workflows.
+- Retrieval, knowledge graphs, and source-grounded AI systems.
+- Document intelligence, OCR, and evaluation pipelines for operational ML.
+- Local-first tools where safety, reversibility, and auditability matter.
 
-$ cat skills.json
-{
-  "ai_llm": ["RAG", "Agentic AI", "LangGraph", "DSPy", "vLLM", "Fine-tuning (LoRA/DPO)"],
-  "ml_dl": ["PyTorch", "FSDP", "DeepSpeed", "SLURM Multi-GPU", "Triton Kernels", "CUDA"],
-  "infra": ["Knowledge Graphs", "FastAPI", "Docker", "Kubernetes", "AWS", "PostgreSQL"]
-}
+## Public Research
 
-$ ls -lh projects/
-total 6 items
+- [When Top-1 Fails: Calibrating LoRA Monitors for Masked Diffusion LMs](https://arxiv.org/abs/2606.24119)
+  Public scripts and sanitized aggregate artifacts for masked-DLM LoRA monitor calibration, with Pratik Yadav.
 
-drwxr-xr-x  InfiniteContext-1B/          # 93.7% KV cache reduction, MLA architecture
-drwxr-xr-x  Document-Classification/     # LayoutLM multimodal (35 stars, 13 forks)
-drwxr-xr-x  US-Driver-License-Extraction/ # Production OCR with YOLO (25 stars)
-drwxr-xr-x  information-retrieval/       # RAG: vector search + rerank + fine-tuned LLaMA 3
-drwx------  AEGIS-Platform/              # 10M entities, agentic pipeline [proprietary]
-drwx------  Research-Cockpit/            # 169 endpoints, 93K vectors [proprietary]
+- [When Does Removing LayerNorm Help? Activation Bounding as a Regime-Dependent Implicit Regularizer](https://arxiv.org/abs/2604.23434)
+  Solo-author empirical study with code, configs, result manifests, validation scripts, and a public artifact dataset.
 
-$ git log --oneline oss-contributions/
-* HKUDS/LightRAG  — Apache AGE 1.5.0+ schema + SQL injection fix
-* HKUDS/MiniRAG   — Docker crash fix
-```
+## Selected Public Repositories
 
-**Tech Stack**
-```yaml
-languages: [Python, C++/CUDA, SQL, JavaScript]
-frameworks: [PyTorch, LangChain, LangGraph, DSPy, HuggingFace]
-infrastructure: [Docker, Kubernetes, FastAPI, AWS, PostgreSQL, Redis]
-specializations: [Knowledge Graphs (Apache AGE, FalkorDB), CodeQL, Computer Vision, Triton]
-```
+- [dyt-composition-study](https://github.com/lucky-verma/dyt-composition-study): transformer normalization and activation-bounding artifact repository.
+- [top1-fails-dlm-lora-monitors](https://github.com/lucky-verma/top1-fails-dlm-lora-monitors): masked-DLM LoRA monitor-calibration scripts and aggregate artifacts.
+- [Document-Classification-using-LayoutLM](https://github.com/lucky-verma/Document-Classification-using-LayoutLM): public document-classification repository.
+- [US-Driver-License-data-extraction](https://github.com/lucky-verma/US-Driver-License-data-extraction): public OCR and field-extraction repository.
+- [mwb-linux](https://github.com/lucky-verma/mwb-linux): Linux client for Microsoft PowerToys Mouse Without Borders workflows.
+- [mail-reclaim](https://github.com/lucky-verma/mail-reclaim): local-first Gmail storage cleanup with conservative recommendation rules.
 
-<div align="center">
+## GitHub Snapshot
 
-![](https://komarev.com/ghpvc/?username=lucky-verma&color=58A6FF&style=flat-square)
+As of June 26, 2026: 97 public repositories, 50 non-fork public repositories, and 126 public stars.
 
-</div>
+## Technical Areas
+
+Python, PyTorch, transformers, LoRA/PEFT evaluation, RAG, knowledge graphs, agentic workflow orchestration, OCR/document AI, data pipelines, FastAPI, Docker, AWS, Go, Linux tooling, reproducibility automation, and evaluation harnesses.
