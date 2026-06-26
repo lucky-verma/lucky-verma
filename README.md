@@ -7,7 +7,7 @@
   <a href="https://www.linkedin.com/in/lucky-verma/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:luckie.verma30@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
   <a href="https://orcid.org/0009-0008-2884-1051"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID"/></a>
-  <a href="https://arxiv.org/search/cs?searchtype=author&query=Verma,+L"><img src="https://img.shields.io/badge/arXiv-Verma%2C_L-b31b1b?style=for-the-badge&logo=arxiv&logoColor=white" alt="arXiv"/></a>
+  <a href="https://scholar.google.com/scholar?q=%22Lucky+Verma%22+machine+learning"><img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white" alt="Google Scholar"/></a>
 </p>
 
 ---
@@ -18,24 +18,6 @@ $ whoami
 > Research: transformer behavior, LoRA monitor calibration, reproducible artifacts
 > Systems: retrieval, knowledge graphs, document intelligence, developer tooling
 > MS Computer Science @ UMBC | Nashville Metro, TN
-
-$ cat public_research.json
-{
-  "preprints": [
-    {
-      "title": "When Top-1 Fails: Calibrating LoRA Monitors for Masked Diffusion LMs",
-      "arxiv": "2606.24119",
-      "doi": "10.48550/arXiv.2606.24119",
-      "repo": "lucky-verma/top1-fails-dlm-lora-monitors"
-    },
-    {
-      "title": "When Does Removing LayerNorm Help?",
-      "arxiv": "2604.23434",
-      "doi": "10.48550/arXiv.2604.23434",
-      "repo": "lucky-verma/dyt-composition-study"
-    }
-  ]
-}
 
 $ cat current_work.json
 {
@@ -55,8 +37,8 @@ $ cat skills.json
 $ ls -lh selected_repos/
 total 6 items
 
-drwxr-xr-x  dyt-composition-study/        # arXiv 2604.23434, code + artifact manifests
-drwxr-xr-x  top1-fails-dlm-lora-monitors/ # arXiv 2606.24119, scripts + aggregate artifacts
+drwxr-xr-x  dyt-composition-study/        # public code + artifact manifests
+drwxr-xr-x  top1-fails-dlm-lora-monitors/ # public scripts + aggregate artifacts
 drwxr-xr-x  Document-Classification/      # LayoutLM document classification
 drwxr-xr-x  US-Driver-License-Extraction/ # OCR and field extraction
 drwxr-xr-x  mwb-linux/                    # Linux client for Mouse Without Borders workflows
