@@ -1,6 +1,6 @@
 # Lucky Verma
 
-Machine Learning Engineer focused on applied ML research, production AI systems, transformer behavior, model monitoring, AI systems for software development, document intelligence, RAG, and knowledge graphs.
+Machine Learning Engineer focused on applied ML research, production AI systems, transformer behavior, model monitoring, developer tooling, document intelligence, RAG, and knowledge graphs.
 
 [Website](https://luckyverma.com) | [Publications](https://luckyverma.com/publications/) | [Projects](https://luckyverma.com/projects/) | [ORCID](https://orcid.org/0009-0008-2884-1051) | [LinkedIn](https://www.linkedin.com/in/lucky-verma/)
 
@@ -8,7 +8,7 @@ Machine Learning Engineer focused on applied ML research, production AI systems,
 
 - Transformer training behavior and normalization alternatives.
 - Monitor calibration for LoRA and PEFT workflows.
-- AI systems for software development and developer tooling.
+- Developer tooling and software-development workflows.
 - Retrieval, knowledge graphs, and source-grounded AI systems.
 - Document intelligence, OCR, and evaluation pipelines for operational ML.
 - Local-first tools where safety, reversibility, and auditability matter.
@@ -36,4 +36,4 @@ As of June 26, 2026: 97 public repositories, 50 non-fork public repositories, an
 
 ## Technical Areas
 
-Python, PyTorch, transformers, LoRA/PEFT evaluation, RAG, knowledge graphs, agentic workflow orchestration, OCR/document AI, data pipelines, FastAPI, Docker, AWS, Go, Linux tooling, reproducibility automation, and evaluation harnesses.
+Python, PyTorch, transformers, LoRA/PEFT evaluation, RAG, knowledge graphs, agentic workflow orchestration, OCR, document intelligence, data pipelines, FastAPI, Docker, AWS, Go, Linux tooling, reproducibility automation, and evaluation harnesses.
